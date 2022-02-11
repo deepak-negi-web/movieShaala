@@ -10,6 +10,12 @@ npm run dev
 yarn dev
 ```
 
+Create a .env.local file on the root and add the env mention below
+
+```bash
+NEXT_PUBLIC_API_KEY=your_themoviedb_api_key
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
